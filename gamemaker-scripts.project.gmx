@@ -10,6 +10,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\backgrounder.gml</script>
+    <script>scripts\warp.gml</script>
   </scripts>
   <help>
     <rtf>help.rtf</rtf>
