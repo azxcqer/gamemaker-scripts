@@ -13,6 +13,7 @@
     <script>scripts\warp.gml</script>
     <script>scripts\irandom_range_not_inclusive.gml</script>
     <script>scripts\resize.gml</script>
+    <script>scripts\draw_text_shadow.gml</script>
   </scripts>
   <help>
     <rtf>help.rtf</rtf>
