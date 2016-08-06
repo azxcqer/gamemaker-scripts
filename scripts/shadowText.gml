@@ -1,5 +1,5 @@
-#define drawTextShadow
-///drawTextShadow(x, y, text, textcolor, shadowcolor, shadowdist, reset boolean)
+#define shadowText
+///shadowText(x, y, text, textcolor, shadowcolor, shadowdist, reset boolean)
 //draw text with shadow and full vars
 //store the argument in local variables
 var textX = argument0,
@@ -24,22 +24,21 @@ draw_text(textX, textY, text)
 
 //reset the aligment and color if the var is true
 if reset {
-    drawTextReset()
+    shadowTextReset()
 }
 
-
-#define drawTextSimple
-///drawTextSimple(x, y, text)
+#define shadowTextSimple
+///shadowTextSimple(x, y, text)
 //draw the text with the minimum var possible
 
 var textX = argument0;
 var textY = argument1;
 var text = argument2;
 
-drawTextShadow(textX, textY, text, c_white, c_black, 1, false)
+shadowText(textX, textY, text, c_white, c_black, 1, false)
 
-#define drawTextColored
-///drawTextColored(x, y, text, color)
+#define shadowTextColored
+///shadowTextColored(x, y, text, color)
 //draw the text only colored
 
 var textX = argument0;
@@ -47,10 +46,10 @@ var textY = argument1;
 var text = argument2;
 var color = argument3;
 
-drawTextShadow(textX, textY, text, color, c_black, 1, false)
+shadowText(textX, textY, text, color, c_black, 1, false)
 
-#define drawTextReset
-///drawTextReset()
+#define shadowTextReset
+///shadowTextReset()
 //reset the draw text variables
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
