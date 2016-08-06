@@ -7,8 +7,7 @@ var textX = argument0,
     text = argument2,
     tColor = argument3,
     sColor = argument4,
-    sDist = argument5,
-    reset = argument8;
+    sDist = argument5;
 
 //set the draw color to the shadow color
 draw_set_colour(sColor)
@@ -30,7 +29,7 @@ var textX = argument0;
 var textY = argument1;
 var text = argument2;
 
-shadowText(textX, textY, text, c_white, c_black, 1,)
+shadowText(textX, textY, text, c_white, c_black, 1)
 
 #define shadowTextColored
 ///shadowTextColored(x, y, text, color)
