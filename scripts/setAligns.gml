@@ -31,5 +31,6 @@ switch (v){
         break
 }
 
+//setting the aligments
 draw_set_halign(h)
 draw_set_valign(v)

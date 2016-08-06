@@ -23,7 +23,7 @@ draw_text(textX, textY, text)
 
 #define shadowTextSimple
 ///shadowTextSimple(x, y, text)
-//draw the text with the minimum var possible
+//draw the text with the minimum variables as possible
 
 var textX = argument0;
 var textY = argument1;
@@ -33,7 +33,7 @@ shadowText(textX, textY, text, c_white, c_black, 1)
 
 #define shadowTextColored
 ///shadowTextColored(x, y, text, color)
-//draw the text only colored
+//draw the text with color
 
 var textX = argument0;
 var textY = argument1;
