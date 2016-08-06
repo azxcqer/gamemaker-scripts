@@ -14,6 +14,7 @@
     <script>scripts\irandom_range_not_inclusive.gml</script>
     <script>scripts\resize.gml</script>
     <script>scripts\shadowText.gml</script>
+    <script>scripts\setAligns.gml</script>
   </scripts>
   <help>
     <rtf>help.rtf</rtf>
